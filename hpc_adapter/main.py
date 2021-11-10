@@ -36,3 +36,6 @@ def get_job():
 # delete file after successful send
 
 # mark job as complete
+
+if __name__ == '__main__':
+    get_job()

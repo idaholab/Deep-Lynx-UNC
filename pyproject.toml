@@ -8,6 +8,7 @@ authors = ["Jeren Browning <jeren.browning@inl.gov>"]
 python = "^3.7"
 requests = "^2.26.0"
 deep-lynx = "^0.0.7"
+python-dotenv = "^0.19.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
