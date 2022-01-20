@@ -1,13 +1,12 @@
 [tool.poetry]
-name = "hpc-adapter"
+name = "unc-adapter"
 version = "0.1.0"
-description = ""
+description = "Connects an isolated network environment to DeepLynx in a separate network"
 authors = ["Jeren Browning <jeren.browning@inl.gov>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-requests = "^2.26.0"
-deep-lynx = "^0.0.7"
+python = "^3.6"
+deep-lynx = "*"
 python-dotenv = "^0.19.1"
 
 [tool.poetry.dev-dependencies]
