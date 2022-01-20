@@ -1,3 +1,5 @@
+# Copyright 2022, Battelle Energy Alliance, LLC
+
 from dotenv import load_dotenv
 
 # loads environment variables from .env file
